@@ -4,6 +4,8 @@ import cond_struct.*;
 
 public class Main {
     public static void main(String[] args) {
+
         exe6 exe= new exe6();
+
     }
 }
