@@ -3,8 +3,8 @@ package cond_struct;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class exe5 {
-    public exe5(){
+public class exe5_seq{
+    public exe5_seq(){
         Scanner sc = new Scanner(System.in);
         int cod1=0, cod2=0, quant1 = 0, quant2=0;
         float valor1 = 0f,valor2 = 0f, valorF=0f;

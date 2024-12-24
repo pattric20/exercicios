@@ -1,11 +1,11 @@
+import java.util.Locale;
 import cond_struct.*;
 //import repet_struct.*;
 //import seq_struct.*;
 
 public class Main {
     public static void main(String[] args) {
-
-        exe6 exe= new exe6();
-
+        Locale.setDefault(Locale.US);
+        exe8_cond exe= new exe8_cond();
     }
 }

@@ -2,8 +2,8 @@ package cond_struct;
 
 import java.util.Scanner;
 
-public class exe3 {
-    public exe3(){
+public class exe3_seq{
+    public exe3_seq(){
         Scanner sc = new Scanner(System.in);
         int A=0,B=0,C=0,D=0;
         System.out.print("Entre com A: ");

@@ -3,8 +3,8 @@ package cond_struct;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class exe6 {
-    public exe6(){
+public class exe6_seq{
+    public exe6_seq(){
         Scanner sc = new Scanner(System.in);
         float A = 0f,B = 0f, C=0f;
         Locale.setDefault(Locale.US);

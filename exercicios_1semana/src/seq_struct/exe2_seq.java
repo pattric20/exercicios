@@ -2,8 +2,8 @@ package cond_struct;
 
 import java.util.Scanner;
 
-public class exe2 {
-    public exe2(){
+public class exe2_seq {
+    public exe2_seq(){
         Scanner sc = new Scanner(System.in);
         float raio=0f, pi = 3.14159f, area=0f;
         System.out.print("Qual o raio: ");

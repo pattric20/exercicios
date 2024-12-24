@@ -2,8 +2,8 @@ package cond_struct;
 
 import java.util.Scanner;
 
-public class exe1 {
-    public exe1(){
+public class exe1_seq{
+    public exe1_seq(){
         System.out.print("Digite o primeiro número: ");
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
