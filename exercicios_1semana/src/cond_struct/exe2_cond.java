@@ -8,7 +8,7 @@ public class exe2_cond {
     int num = 0;
     public exe2_cond(){
         System.out.print("Digite um número: ");
-        num = sc.nextInt();
+        this.num = sc.nextInt();
         if(num%2 == 0){
             System.out.println("PAR");
             System.out.printf("%d é par",num);

@@ -3,10 +3,11 @@ package cond_struct;
 import java.util.Scanner;
 
 public class exe6_cond {
+    double num;
     Scanner sc = new Scanner(System.in);
     public exe6_cond(){
         System.out.print("Digite um número: ");
-        double num = sc.nextDouble();
+        this.num = sc.nextDouble();
         if (num <= 0 || num > 100) {
             System.out.print("Fora do Intervalo");
         }else if(num <= 25){

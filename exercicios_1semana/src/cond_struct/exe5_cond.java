@@ -3,12 +3,14 @@ package cond_struct;
 import java.util.Scanner;
 
 public class exe5_cond {
+    int cod;
+    int quant;
     Scanner sc = new Scanner(System.in);
     public exe5_cond(){
         System.out.print("Digite o codigo: ");
-        int cod = sc.nextInt();
+        this.cod = sc.nextInt();
         System.out.print("Digite a quantidade: ");
-        int quant = sc.nextInt();
+        this.quant = sc.nextInt();
 
         switch (cod){
             case 1:

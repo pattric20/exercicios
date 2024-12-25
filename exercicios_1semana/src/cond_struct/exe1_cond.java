@@ -7,7 +7,7 @@ public class exe1_cond {
     int num = 0;
     public exe1_cond(){
         System.out.print("Digite um número: ");
-        num = sc.nextInt();
+        this.num = sc.nextInt();
         if(num < 0){
             System.out.println("NEGATIVO");
             System.out.printf("%d é negativo",num);

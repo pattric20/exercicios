@@ -1,19 +1,19 @@
-package cond_struct;
+package seq_struct;
 
 import java.util.Scanner;
 
 public class exe3_seq{
+    int A=0,B=0,C=0,D=0;
     public exe3_seq(){
         Scanner sc = new Scanner(System.in);
-        int A=0,B=0,C=0,D=0;
         System.out.print("Entre com A: ");
-        A = sc.nextInt();
+        this.A = sc.nextInt();
         System.out.print("Entre com B: ");
-        B = sc.nextInt();
+        this.B = sc.nextInt();
         System.out.print("Entre com C: ");
-        C = sc.nextInt();
+        this.C = sc.nextInt();
         System.out.print("Entre com D: ");
-        D = sc.nextInt();
+        this.D = sc.nextInt();
         System.out.print("DIFERENCA = " + (A * B - C * D));
         sc.close();
     }

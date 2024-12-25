@@ -1,12 +1,15 @@
-package cond_struct;
+package seq_struct;
 
 import java.util.Locale;
 import java.util.Scanner;
 
 public class exe6_seq{
+    float A = 0f,B = 0f, C=0f;
     public exe6_seq(){
         Scanner sc = new Scanner(System.in);
-        float A = 0f,B = 0f, C=0f;
+        this.A = 0f;
+        this.B = 0f;
+        this.C=0f;
         Locale.setDefault(Locale.US);
         A = sc.nextFloat();
         B = sc.nextFloat();

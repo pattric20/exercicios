@@ -8,9 +8,9 @@ public class exe4_cond {
     Scanner sc = new Scanner(System.in);
     public exe4_cond(){
         System.out.printf("Digite a hora em que o jogo começa: ");
-        hStart = sc.nextInt();
+        this.hStart = sc.nextInt();
         System.out.printf("Digite a hora em que o jogo termina: ");
-        hEnd = sc.nextInt();
+        this.hEnd = sc.nextInt();
 
         if (hStart < hEnd) {
             System.out.printf("O JOGO DUROU %d HORA(S)", hEnd - hStart);

@@ -4,9 +4,12 @@ import java.util.Scanner;
 
 public class exe8_cond {
     Scanner sc = new Scanner(System.in);
+    float imp;
+    float sal;
     public exe8_cond(){
         System.out.print("Digite o salario: ");
-        float imp = 0, sal = sc.nextFloat();
+        this.imp = 0;
+        this.sal = sc.nextFloat();
         if(sal <= 2000) {
             System.out.println("Isento");
         }else{
