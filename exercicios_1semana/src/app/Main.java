@@ -10,28 +10,31 @@ public class Main {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        Pensionato exe = new Pensionato();
-        System.out.print("How many rooms will be rented? ");
-        int N = sc.nextInt();
+        ListEmployees lista = new ListEmployees();
+        System.out.print("How many employees will be registered? ");
+        int N = sc.nextInt(),id;
         for(int i=1;i<=N;i++){
             System.out.println();
-            String name, email;
-            int room;
-            System.out.println("Rent #"+i+":");
+            String name;
+            float salary;
+            System.out.println("Emplyoee #"+i+":");
+            System.out.print("ID: ");
+            id = sc.nextInt();
             System.out.print("Name: ");
             sc.nextLine();
             name = sc.nextLine();
-            System.out.print("Email: ");
-            email = sc.nextLine();
-            System.out.print("Room: ");
-            room = sc.nextInt();
-            Locatario loc = new Locatario(name,email,room);
-            exe.addLocatario(loc);
+            System.out.print("Salary: ");
+            salary = sc.nextFloat();
+            Employees emp = new Employees(id,name,salary);
+            lista.addEmplyoee(emp);
         }
 
-        System.out.println("Busy rooms: ");
-        for(Locatario i:exe.getBusyRooms())
-            System.out.println(i.getRoom()+":  " + i.getName()+"," + i.getEmail());
-
+        System.out.println("\nEnter the employee id that will have salary increase: ");
+        id = sc.nextInt();
+        System.out.println("Enter the percentage: ");
+        float percent = sc.nextFloat();
+        lista.increaseSalary(id,percent);
+        System.out.println();
+        lista.printListEmployees();
     }
 }
