@@ -1,7 +1,8 @@
 package app;
 import java.util.Locale;
 import java.util.Scanner;
-import conceitosPOO.*;
+
+import exe_vector.*;
 
 
 public class Main {
@@ -9,33 +10,28 @@ public class Main {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Digite o nome do titular dan conta: ");
-        String name = sc.nextLine();
-        System.out.print("Digite o numero da conta: ");
-        int contaID = sc.nextInt();
-        exe_bank conta;
-        System.out.print("Quer fazer um deposito inicial? (y ou n): ");
-        char dep = sc.next().charAt(0);
-        if(dep == 'y') {
-            System.out.print("Digite o valor: ");
-            float depositoIni = sc.nextFloat();
-            conta = new exe_bank(contaID,name,depositoIni);
-        }else{
-            conta = new exe_bank(contaID,name);
+        Pensionato exe = new Pensionato();
+        System.out.print("How many rooms will be rented? ");
+        int N = sc.nextInt();
+        for(int i=1;i<=N;i++){
+            System.out.println();
+            String name, email;
+            int room;
+            System.out.println("Rent #"+i+":");
+            System.out.print("Name: ");
+            sc.nextLine();
+            name = sc.nextLine();
+            System.out.print("Email: ");
+            email = sc.nextLine();
+            System.out.print("Room: ");
+            room = sc.nextInt();
+            Locatario loc = new Locatario(name,email,room);
+            exe.addLocatario(loc);
         }
 
-        System.out.println(conta.toString());
+        System.out.println("Busy rooms: ");
+        for(Locatario i:exe.getBusyRooms())
+            System.out.println(i.getRoom()+":  " + i.getName()+"," + i.getEmail());
 
-        System.out.print("\n\nDigite o valor para deposito: ");
-        conta.deposito(sc.nextFloat());
-
-        System.out.println(conta.toString());
-
-        System.out.print("\n\nDigite o valor para saque: ");
-        conta.saque(sc.nextFloat());
-
-        System.out.println(conta.toString());
-
-        sc.close();
     }
 }
