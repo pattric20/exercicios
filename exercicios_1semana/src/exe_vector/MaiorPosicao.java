@@ -11,6 +11,7 @@ public class MaiorPosicao {
             System.out.printf("Digite o %dº numero: ",i+1);
             nums[i] = sc.nextInt();
         }
+        sc.close();
     }
 
     public float getMaior(){
