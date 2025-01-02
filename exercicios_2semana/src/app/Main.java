@@ -1,54 +1,49 @@
 package app;
 
-import entidades_enumeracao_composicao.*;
+import entidades.*;
 
-import java.util.Date;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Locale;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws ParseException {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
-        System.out.println("Enter cliente data:");
-        System.out.print("Name: ");
-        String name = sc.nextLine();
-        System.out.print("Email: ");
-        String email = sc.nextLine();
-        System.out.print("Birth: ");
-        Date birth = sdf.parse(sc.next());
-        Client client = new Client(name,email,birth);
-
-        System.out.println("\nEnter order data:");
-        System.out.print("Status: ");
-        OrderStatus status = OrderStatus.valueOf(sc.next());
-        Order order = new Order(new Date(),status,client);
-
-        System.out.println("\nHow many items to this order?");
+        List<Product> list = new ArrayList<>();
+        System.out.print("Enter the number of products: ");
         int n = sc.nextInt();
         System.out.println();
 
         for(int i=0; i<n; i++) {
-            System.out.printf("Enter #%d item data:\n",i+1);
-            System.out.print("Product name: ");
+            System.out.printf("Product #%d data:\n", i + 1);
+            System.out.print("Common, used or imported: (c/u/i): ");
+            char type = sc.next().charAt(0);
+            System.out.print("Name: ");
             sc.nextLine();
             String pName = sc.nextLine();
             System.out.print("Product price: ");
             double price = sc.nextDouble();
-            System.out.print("Quantity: ");
-            int quantity = sc.nextInt();
-            Product product = new Product(pName, price);
-            OrderItem oItem = new OrderItem(quantity, product);
-            order.addItem(oItem);
+            if (type == 'c'){
+                list.add(new Product(pName, price));
+            }else if(type == 'u'){
+                System.out.print("Data de fabricacao (DD/MM/YYYY): ");
+                LocalDate manufactureDate = LocalDate.parse(sc.next(), DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+                list.add(new UsedProduct(pName,price,manufactureDate));
+            }else{
+                System.out.print("Custom free: ");
+                int customFree = sc.nextInt();
+                list.add(new ImportedProduct(pName,price,customFree));
+            }
+
             System.out.println();
         }
 
-        System.out.println(order.toString());
-
+        for(Product product:list)
+            System.out.println(product.priceTag());
         sc.close();
     }
 }
