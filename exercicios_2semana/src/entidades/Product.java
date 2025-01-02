@@ -1,4 +1,4 @@
-package entidades_enumeracao_composicao;
+package entidades;
 
 public class Product {
     private String name;
@@ -23,5 +23,9 @@ public class Product {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    public String priceTag(){
+        return getName() + " $" + getPrice();
     }
 }
