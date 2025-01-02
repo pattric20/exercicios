@@ -1,4 +1,4 @@
-package entidades;
+package entidades_enumeracao_composicao;
 
 public class OrderItem {
     private Integer quantity;

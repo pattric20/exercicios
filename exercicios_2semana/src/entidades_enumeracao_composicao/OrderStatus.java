@@ -1,4 +1,4 @@
-package entidades;
+package entidades_enumeracao_composicao;
 
 public enum OrderStatus {
     PENDING_PAY,

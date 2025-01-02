@@ -1,4 +1,4 @@
-package entidades;
+package entidades_enumeracao_composicao;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

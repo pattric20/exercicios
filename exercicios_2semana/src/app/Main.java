@@ -1,6 +1,6 @@
 package app;
 
-import entidades.*;
+import entidades_enumeracao_composicao.*;
 
 import java.util.Date;
 import java.text.ParseException;
@@ -13,21 +13,6 @@ public class Main {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-
-        /*
-        Product p1 = new Product("Tv", 5000);
-        Product p2 = new Product("Smartphoe",1000);
-        Product p3 = new Product("Mouse",50);
-        OrderItem o1 = new OrderItem(1,p1);
-        OrderItem o2 = new OrderItem(2,p2);
-        OrderItem o3 = new OrderItem(3,p3);
-        OrderStatus status = OrderStatus.valueOf("PROCESSING");
-        Client client = new Client("Alex","alex@gamil.com",sdf.parse("15/12/1998"));
-        Order order = new Order(new Date(),status,client);
-        order.addItem(o1);
-        order.addItem(o2);
-        order.addItem(o3);
-        System.out.println(order);*/
 
         System.out.println("Enter cliente data:");
         System.out.print("Name: ");
