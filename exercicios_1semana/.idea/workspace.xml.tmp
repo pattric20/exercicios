@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b6ca3341-13f9-4d5b-8bf0-fa02077dc7ac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/app/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/conceitosPOO/CurrencyConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/conceitosPOO/exe1_fix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/conceitosPOO/exe2_fix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/conceitosPOO/exe3_fix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/conceitosPOO/exe_bank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/cond_struct/exe1_cond.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/cond_struct/exe2_cond.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/cond_struct/exe3_cond.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/cond_struct/exe4_cond.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/cond_struct/exe5_cond.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/cond_struct/exe6_cond.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/cond_struct/exe7_cond.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/cond_struct/exe8_cond.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/repet_struct/exe1_fixacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/repet_struct/exe1_for.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/repet_struct/exe1_while.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/repet_struct/exe2_fixacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/repet_struct/exe2_for.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/repet_struct/exe2_while.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/repet_struct/exe3_fixacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/repet_struct/exe3_for.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/repet_struct/exe3_while.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/repet_struct/exe4_fixacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/repet_struct/exe4_for.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/repet_struct/exe5_for.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/repet_struct/exe6_for.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/repet_struct/exe7_for.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/seq_struct/exe1_seq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/seq_struct/exe2_seq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/seq_struct/exe3_seq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/seq_struct/exe4_seq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/seq_struct/exe5_seq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Projetos/seq_struct/exe6_seq.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2qS6BT8Y9aZmnFNmOreI7ZPWsGB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/pvint/Desktop/Estagio/Projetos",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6ca3341-13f9-4d5b-8bf0-fa02077dc7ac" name="Changes" comment="" />
+      <created>1734643493911</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734643493911</updated>
+      <workItem from="1734643495008" duration="3490000" />
+      <workItem from="1734713607499" duration="2813000" />
+      <workItem from="1734718009110" duration="10000" />
+      <workItem from="1734718303575" duration="9636000" />
+      <workItem from="1734981715054" duration="44000" />
+      <workItem from="1735579900918" duration="310000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
