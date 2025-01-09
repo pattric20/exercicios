@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Projetos.iml" filepath="$PROJECT_DIR$/Projetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chess/chess.iml" filepath="$PROJECT_DIR$/chess/chess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicios_2semana/exercicios_2semana.iml" filepath="$PROJECT_DIR$/exercicios_2semana/exercicios_2semana.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicios_3semana/exercicios_3semana.iml" filepath="$PROJECT_DIR$/exercicios_3semana/exercicios_3semana.iml" />
+    </modules>
+  </component>
+</project>

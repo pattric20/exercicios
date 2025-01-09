@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="52bdbc39-12fa-4976-a791-1056cd27fabd" name="Changes" comment="Exercicio de excecao">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Projetos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicios_2semana/src/app/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/app/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/conceitosPOO/CurrencyConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/conceitosPOO/exe1_fix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/conceitosPOO/exe2_fix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/conceitosPOO/exe3_fix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/conceitosPOO/exe_bank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/cond_struct/exe1_cond.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/cond_struct/exe2_cond.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/cond_struct/exe3_cond.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/cond_struct/exe4_cond.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/cond_struct/exe5_cond.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/cond_struct/exe6_cond.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/cond_struct/exe7_cond.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/cond_struct/exe8_cond.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/exe_vector/AbaixoMedia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/exe_vector/Alturas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/exe_vector/Aprovados.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/exe_vector/DadosPessoas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/exe_vector/Employees.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/exe_vector/ListEmployees.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/exe_vector/Locatario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/exe_vector/MaiorPosicao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/exe_vector/MaisVelho.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/exe_vector/Matriz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/exe_vector/MediaPares.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/exe_vector/Negativos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/exe_vector/NumerosPares.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/exe_vector/Pensionato.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/exe_vector/Pessoas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/exe_vector/SomaVector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/exe_vector/SomaVetores.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/repet_struct/exe1_fixacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/repet_struct/exe1_for.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/repet_struct/exe1_while.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/repet_struct/exe2_fixacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/repet_struct/exe2_for.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/repet_struct/exe2_while.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/repet_struct/exe3_fixacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/repet_struct/exe3_for.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/repet_struct/exe3_while.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/repet_struct/exe4_fixacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/repet_struct/exe4_for.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/repet_struct/exe5_for.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/repet_struct/exe6_for.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/repet_struct/exe7_for.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/seq_struct/exe1_seq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/seq_struct/exe2_seq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/seq_struct/exe3_seq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/seq_struct/exe4_seq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/seq_struct/exe5_seq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projetos/seq_struct/exe6_seq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercicios_2semana/Class_Method_Abstract/Company.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercicios_2semana/Class_Method_Abstract/Individual.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercicios_2semana/Class_Method_Abstract/TaxPayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercicios_2semana/app/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercicios_2semana/entidades/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercicios_2semana/entidades/ImportedProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercicios_2semana/entidades/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercicios_2semana/entidades/OrderItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercicios_2semana/entidades/OrderStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercicios_2semana/entidades/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercicios_2semana/entidades/UsedProduct.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="vectors" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="chess" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2qd9sqj1eZSALjPvAVPoaHcaXs2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Main1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.app.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.app.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;java.suggest.annotation.dependency&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-23&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pvint/Desktop/Estagio/Projetos&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pvint\Desktop\Estagio\Projetos\chess\src\boardgame" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pvint\Desktop\Estagio\Projetos" />
+      <recent name="C:\Users\pvint\Desktop\Estagio\Projetos\chess\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="exercicios_3semana" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Projetos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Projetos" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52bdbc39-12fa-4976-a791-1056cd27fabd" name="Changes" comment="" />
+      <created>1734981794874</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734981794874</updated>
+      <workItem from="1734981795985" duration="827000" />
+      <workItem from="1734982888229" duration="12000000" />
+      <workItem from="1735055732479" duration="30374000" />
+      <workItem from="1735219936383" duration="2103000" />
+      <workItem from="1735225446698" duration="21347000" />
+      <workItem from="1735315497733" duration="30033000" />
+      <workItem from="1735578967905" duration="360000" />
+      <workItem from="1735579366889" duration="63000" />
+      <workItem from="1735580212393" duration="20000" />
+      <workItem from="1735837477990" duration="13057000" />
+      <workItem from="1735867979766" duration="7277000" />
+      <workItem from="1735919852419" duration="877000" />
+      <workItem from="1735920920231" duration="475000" />
+      <workItem from="1735921587898" duration="765000" />
+      <workItem from="1735922380845" duration="569000" />
+      <workItem from="1735923061796" duration="80000" />
+      <workItem from="1735923500085" duration="14778000" />
+      <workItem from="1736044414190" duration="3660000" />
+      <workItem from="1736103495263" duration="5252000" />
+      <workItem from="1736182470605" duration="1845000" />
+      <workItem from="1736187688627" duration="107000" />
+    </task>
+    <task id="LOCAL-00001" summary="Copy main for exe_bank">
+      <option name="closed" value="true" />
+      <created>1735221627167</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735221627167</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Exercicios de vetores">
+      <option name="closed" value="true" />
+      <created>1735320181188</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735320181188</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Exercicio do pensionato">
+      <option name="closed" value="true" />
+      <created>1735329587382</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1735329587382</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Exercicio do pensionato">
+      <option name="closed" value="true" />
+      <created>1735329605798</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735329605798</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Exercicio proposto lista">
+      <option name="closed" value="true" />
+      <created>1735334631129</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735334631129</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Exercicio proposto lista">
+      <option name="closed" value="true" />
+      <created>1735345464639</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1735345464639</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Exercicio proposto sobre matriz">
+      <option name="closed" value="true" />
+      <created>1735346281442</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1735346281442</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Exercicio proposto de matriz">
+      <option name="closed" value="true" />
+      <created>1735346316601</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1735346316601</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Segunda parteda lista de exercicios de vetores">
+      <option name="closed" value="true" />
+      <created>1735358710956</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1735358710956</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Segunda parteda lista de exercicios de vetores">
+      <option name="closed" value="true" />
+      <created>1735837492455</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1735837492455</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Exercicio de enumeracao e composicao">
+      <option name="closed" value="true" />
+      <created>1735837617009</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1735837617009</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Exercicio de enumeracao e composicao 2">
+      <option name="closed" value="true" />
+      <created>1735837758534</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1735837758534</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Exercicio de heranca e polimorffismo">
+      <option name="closed" value="true" />
+      <created>1735841302253</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1735841302253</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Exercicio de classe e metodo abstrato">
+      <option name="closed" value="true" />
+      <created>1735851446264</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1735851446264</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Exercicio de excecao">
+      <option name="closed" value="true" />
+      <created>1735875444402</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1735875444402</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Exercicios conseitos de classe, emcapsulamento, sobrecarga e construtores" />
+    <MESSAGE value="Copy main for exe_bank" />
+    <MESSAGE value="Exercicios de vetores" />
+    <MESSAGE value="Exercicio do pensionato" />
+    <MESSAGE value="Exercicio proposto lista" />
+    <MESSAGE value="Exercicio proposto sobre matriz" />
+    <MESSAGE value="Exercicio proposto de matriz" />
+    <MESSAGE value="Segunda parteda lista de exercicios de vetores" />
+    <MESSAGE value="Exercicio de enumeracao e composicao" />
+    <MESSAGE value="Exercicio de enumeracao e composicao 2" />
+    <MESSAGE value="Exercicio de heranca e polimorffismo" />
+    <MESSAGE value="Exercicio de classe e metodo abstrato" />
+    <MESSAGE value="Exercicio de excecao" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicio de excecao" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/chess/src/boardgame/Piece.java</url>
+          <line>14</line>
+          <properties class="boardgame.Piece" method="possibleMove">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chess/src/chess/pieces/Rook.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
